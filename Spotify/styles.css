@@ -1,0 +1,378 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+
+header {
+    display: flex;
+    height: 80px;
+    width: calc(100%-240px);
+    justify-content: space-between;
+    background-color: rgb(18, 18, 18);
+    margin: 0 0 0 240px;
+
+}
+
+.middle {
+    width: calc(100%-240px);
+    margin: 0 0 0 240px;
+    background-color: rgb(18, 18, 18);
+}
+
+.focus {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.focus h2 {
+    color: white;
+    padding-left: 40px;
+    padding-top: 30px;
+}
+
+.focus a {
+    text-decoration: none;
+    color: gray;
+    padding-right: 40px;
+    padding-top: 30px;
+}
+
+.image {
+    padding-left: 20px;
+    padding-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    border: 2px solid rgb(11, 10, 10);
+    border-radius: 4%;
+
+}
+
+.rodape {
+    width: calc(100%-240px);
+    margin-left: 240px;
+    margin: 0 0 0 240px;
+    height: 350px;
+
+    background-color: rgb(18, 18, 18);
+}
+
+.image img {
+    padding-left: 15px;
+    border-radius: 30px;
+}
+
+.image h2 {
+    color: white;
+}
+
+.image h4 {
+    color: grey;
+
+}
+
+.playlist {
+    padding-top: 30px;
+    padding-left: 32px;
+    padding-bottom: 30px;
+}
+
+.playlist h2 {
+    color: white;
+}
+
+.cards {
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+
+.cards img {
+    height: 200px;
+}
+
+
+.setas {
+    display: flex;
+}
+
+.seta-esquerda {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.seta-esquerda img {
+    height: 36px;
+    margin-right: 25px;
+    margin-left: 31px;
+    margin-bottom: 16px;
+}
+
+.seta-direita {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.seta-direita img {
+    height: 36px;
+    margin-right: 25px;
+    margin-left: 20px;
+    margin-bottom: 16px;
+}
+
+.botoes {
+    display: flex;
+    align-items: center;
+}
+
+.signup {
+    text-decoration: none;
+    color: white;
+}
+
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 109px;
+    height: 46px;
+    padding: 25px;
+    border-radius: 30%;
+    margin-left: 30px;
+
+}
+
+.login a {
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: 240px;
+    min-height: 100vh;
+    background-color: #121212;
+}
+
+.logo img {
+    height: 40px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.home img {
+    height: 30px;
+    margin-right: 25px;
+    margin-left: 26px;
+}
+
+.home a {
+    display: flex;
+    text-decoration: none;
+    color: white;
+    padding-top: 5px;
+
+}
+
+.lupa {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.lupa img {
+    height: 30px;
+    margin-right: 25px;
+    margin-left: 26px;
+}
+
+.lupa a {
+    display: flex;
+    text-decoration: none;
+    color: white;
+    padding-top: 5px;
+
+}
+
+.music {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+
+.music img {
+    height: 36px;
+    margin-right: 25px;
+    margin-left: 26px;
+}
+
+.music a {
+    display: flex;
+    text-decoration: none;
+    color: white;
+    padding-top: 5px;
+
+}
+
+.listen {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.listen img {
+    height: 36px;
+    margin-right: 25px;
+    margin-left: 26px;
+}
+
+.listen a {
+    display: flex;
+    text-decoration: none;
+    color: white;
+    padding-top: 5px;
+
+}
+
+.heart {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.heart img {
+    height: 36px;
+    margin-right: 25px;
+    margin-left: 26px;
+}
+
+.heart a {
+    display: flex;
+    text-decoration: none;
+    color: white;
+    padding-top: 5px;
+
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    margin-top: 550px;
+
+}
+
+.profile img {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: 2px solid green;
+    margin-right: 25px;
+    margin-left: 26px;
+
+}
+
+.profile a {
+    display: flex;
+    text-decoration: none;
+    color: white;
+    padding-top: 5px;
+
+}
+
+.instagram {
+    display: flex;
+    align-items: center;
+    padding-top: 60px;
+
+}
+
+.instagram img {
+    height: 36px;
+    margin-right: 25px;
+    margin-left: 26px;
+    padding-left: 60px;
+}
+
+.branca {
+    color: white;
+}
+
+.company ul li a {
+    text-decoration: none;
+    color: gray;
+}
+
+.company ul li {
+    padding-bottom: 15px;
+}
+
+.rodape {
+    display: flex;
+
+}
+
+.company {
+    margin-top: 160px;
+    margin-left: 30px;
+    margin-right: 50px;
+}
+
+.communities {
+    margin-top: 160px;
+    margin-left: 30px;
+    margin-right: 50px;
+}
+
+.communities ul li {
+    padding-bottom: 15px;
+}
+
+.communities ul li a {
+    text-decoration: none;
+    color: gray;
+}
+
+.useful {
+    margin-top: 160px;
+    margin-left: 30px;
+}
+
+.useful ul li {
+    padding-bottom: 15px;
+}
+
+.useful ul li a {
+    text-decoration: none;
+    color: gray;
+}
+
+.image:hover {
+    background-color: #2e2b2b;
+
+}
+
+.final {
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+}
